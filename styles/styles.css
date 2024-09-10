@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #F2F2F2;
+}
+.nav-pt-1{
+    width: 1400px;
+    height: 78px;
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 144px;
+    margin-right: 320px;
+    align-self: center;
+}
+.nav-links{
+    display: flex;
+    align-self: center;
+    margin-left: 321px;
+    margin-right: 53px;
+    gap: 40px;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    font-size: 14px;
+}
+.auth-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+}
+.sign-in, .sign-up {
+    display: flex;
+    align-items: center;
+}
+button {
+    display: flex;
+    cursor: pointer;
+    padding: 0px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    width: 102px;
+    height: 46px;    
+}
+.sign-in button {
+    background-color: transparent;
+    color: #173A56;
+    border: 2px solid #BCD0E5;
+}
+.sign-up button {
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 14px;
+}
